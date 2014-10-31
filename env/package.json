@@ -4,14 +4,15 @@
   "description": "Test environment status",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/fijiaaron/qa"
+    "url": "https://github.com/fijiaaron/qa.git"
   },
   "author": "Aaron Evans",
-  "license": "MSFT",
+  "license": "Microsoft Windows 3.11 for Workgroups EULA",
   "bugs": {
     "url": "https://github.com/fijiaaron/qa/issues"
   },
