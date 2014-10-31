@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/fijiaaron/qa/issues"
   },
-  "homepage": "https://github.com/fijiaaron/qa"
+  "homepage": "https://github.com/fijiaaron/qa",
+  
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
 }
