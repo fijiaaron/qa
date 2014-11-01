@@ -2,6 +2,9 @@
   "name": "qa.env",
   "version": "0.0.1",
   "description": "Test environment status",
+  "homepage": "https://github.com/fijiaaron/qa",
+  "author": "Aaron Evans",
+  "license": "Microsoft Windows 3.11 for workgroups EULA",
   "main": "app.js",
   "scripts": {
     "start": "node app",
@@ -11,18 +14,13 @@
     "type": "git",
     "url": "https://github.com/fijiaaron/qa.git"
   },
-  "author": "Aaron Evans",
-  "license": "Microsoft Windows 3.11 for Workgroups EULA",
-  "bugs": {
+    "bugs": {
     "url": "https://github.com/fijiaaron/qa/issues"
   },
-  "homepage": "https://github.com/fijiaaron/qa",
+  "dependencies": {
+  },
   "devDependencies": {
     "chai": "^1.9.2",
     "mocha": "^2.0.1"
-  },
-  "dependencies": {
-    "chai": "^1.9.2",
-    "should": "^4.1.0"
   }
 }
