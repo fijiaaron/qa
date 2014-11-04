@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>QA.Env</title>
+		<script src="./node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+		<script src="./node_modules/handlebars/dist/handlebars.js" type="text/javascript"></script>
+
+		<script src="./app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		
+		<div id="heading">
+			Template will be here
+		</div>
+
+
+<script id="heading-template" type="text/x-handlebars-template">
+	<h1>This is <b>{{app.name}}</b></h1>
+	{{app.description}}
+</script>
+
+		<script>
+
+			var source = $("#heading-template").html();
+			var template = Handlebars.compile(source);
+
+			var context = {app: app}
+			var html = template(context);
+			
+			$("#heading").html(html);
+		</script>
+	</body>
+</html>
